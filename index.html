@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Reseñando hoteles</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Reseña hotel</h1>
+        </div>
+        <!-- diff -->
+        <div class="row">
+            <div class="col-50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-50">
+                            <h3 id="hotel-name"></h3>
+                            <h4 id="hotel-location"></h4>
+                        </div>
+                        <div class="col-50">
+                            <img class="img" id="hotel-img" alt="Foto hotel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-50">
+                <div class="container">
+                    <p class="stars">Puntuación: <span id="hotel-rating"></span></p>
+                    <hr>
+                    <p>¿Quiere que su reseña sea anónima?<input type="checkbox" id="anonymous"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
